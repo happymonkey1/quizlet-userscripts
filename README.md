@@ -1,18 +1,24 @@
-# happymonkey1@'s Quizlet CSV Import
+# happymonkey1@'s Quizlet Userscript(s)
 
-A Tampermonkey userscript that adds CSV import support to Quizlet flashcard sets.
+Tampermonkey userscript(s) for Quizlet.
 
-# Install
+Userscripts:
+- `quizlet-csv-import.user.js`
+  - A Tampermonkey userscript that adds CSV import support to Quizlet flashcard sets.
+
+# Quizlet CSV Import
+
+## Install
 1. Install the Tampermonkey browser extension.
   a. [Chrome webstore](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
-2. Open the userscript install link: `https://raw.githubusercontent.com/happymonkey1/quizlet-csv-import-userscript/stable/quizlet-csv-import.user.js`
+2. Open the userscript install link: `https://raw.githubusercontent.com/happymonkey1/quizlet-userscripts/stable/quizlet-csv-import.user.js`
 3. Tampermonkey will open an install page.
 4. Click Install.
 5. Open Quizlet and go to: `https://quizlet.com/create-set`
 
 You should see an Import CSV button next to Quizlet's normal Import button.
 
-## Chrome Setup
+### Chrome Setup
 
 Chrome requires explicit permission for Tampermonkey to run userscripts.
 
@@ -23,9 +29,9 @@ Chrome requires explicit permission for Tampermonkey to run userscripts.
 
 Reload Quizlet after changing these settings.
 
-# User Guide
+## User Guide
 
-## Import a CSV
+### Import a CSV
 
 The CSV should contain two columns:
 
@@ -50,7 +56,7 @@ To import:
 5. Click Quizlet's Import button.
 6. Create the flashcard set normally.
 
-## Script Updates
+### Script Updates
 
 The script updates automatically.
 
@@ -59,3 +65,11 @@ If needed, go to Tampermonkey extension and use `Check for userscript updates`.
 # Bug / Feature Request / Issues
 
 Submit a GitHub issue.
+
+Include userscript in question and context about problem/feature/issue.
+
+# Disclaimer
+
+```
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
