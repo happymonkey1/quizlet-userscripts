@@ -11,7 +11,7 @@ Userscripts:
 ## Install
 1. Install the Tampermonkey browser extension.
     - [Chrome webstore](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
-2. Open the Quizlet CSV import userscript [install link](https://github.com/happymonkey1/quizlet-userscripts/raw/refs/heads/mainline/quizlet-csv-import.user.js)
+2. Open the Quizlet CSV import userscript [install link](https://github.com/happymonkey1/quizlet-userscripts/raw/refs/heads/mainline/quizlet-csv-import.user.js).
 3. Tampermonkey will open an install page.
 4. Click Install.
 5. Open Quizlet and go to [Create a new flashcard set page](https://quizlet.com/create-set).
