@@ -1,0 +1,61 @@
+# happymonkey1@'s Quizlet CSV Import
+
+A Tampermonkey userscript that adds CSV import support to Quizlet flashcard sets.
+
+# Install
+1. Install the Tampermonkey browser extension.
+  a. [Chrome webstore](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
+2. Open the userscript install link: `https://raw.githubusercontent.com/happymonkey1/quizlet-csv-import-userscript/stable/quizlet-csv-import.user.js`
+3. Tampermonkey will open an install page.
+4. Click Install.
+5. Open Quizlet and go to: `https://quizlet.com/create-set`
+
+You should see an Import CSV button next to Quizlet's normal Import button.
+
+## Chrome Setup
+
+Chrome requires explicit permission for Tampermonkey to run userscripts.
+
+1. Open `chrome://extensions`.
+2. Select Tampermonkey.
+3. Enable Allow User Scripts.
+4. Make sure Tampermonkey has permission to run on quizlet.com.
+
+Reload Quizlet after changing these settings.
+
+# User Guide
+
+## Import a CSV
+
+The CSV should contain two columns:
+
+```csv
+Front,Back
+Question 1,Answer 1
+Question 2,Answer 2
+```
+
+The script also recognizes headers such as:
+
+- `Term` / `Definition`
+- `Question` / `Answer`
+- `Front` / `Back`
+
+To import:
+
+1. Open Create a new flashcard set in Quizlet.
+2. Click Import CSV.
+3. Select the CSV file.
+4. Review the cards in Quizlet's import preview.
+5. Click Quizlet's Import button.
+6. Create the flashcard set normally.
+
+## Script Updates
+
+The script updates automatically.
+
+If needed, go to Tampermonkey extension and use `Check for userscript updates`.
+
+# Bug / Feature Request / Issues
+
+Submit a GitHub issue.
