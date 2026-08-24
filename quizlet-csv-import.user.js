@@ -8,9 +8,9 @@
 // @run-at       document-idle
 // @grant        none
 // @supportURL   https://www.kablunk.com/contact
-// @homepageURL  https://github.com/happymonkey1/quizlet-csv-import-userscript
-// @updateURL    https://raw.githubusercontent.com/happymonkey1/quizlet-csv-import-userscript/stable/quizlet-csv-import.user.js
-// @downloadURL  https://raw.githubusercontent.com/happymonkey1/quizlet-csv-import-userscript/stable/quizlet-csv-import.user.js
+// @homepageURL  https://github.com/happymonkey1/quizlet-userscripts
+// @updateURL    https://github.com/happymonkey1/quizlet-userscripts/raw/refs/heads/mainline/quizlet-csv-import.user.js
+// @downloadURL  https://github.com/happymonkey1/quizlet-userscripts/raw/refs/heads/mainline/quizlet-csv-import.user.js
 // ==/UserScript==
 
 (() => {
