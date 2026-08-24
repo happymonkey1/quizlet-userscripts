@@ -11,10 +11,10 @@ Userscripts:
 ## Install
 1. Install the Tampermonkey browser extension.
   a. [Chrome webstore](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
-2. Open the userscript install link: `https://raw.githubusercontent.com/happymonkey1/quizlet-userscripts/stable/quizlet-csv-import.user.js`
+2. Open the userscript [install link](https://github.com/happymonkey1/quizlet-userscripts/raw/refs/heads/mainline/quizlet-csv-import.user.js)
 3. Tampermonkey will open an install page.
 4. Click Install.
-5. Open Quizlet and go to: `https://quizlet.com/create-set`
+5. Open Quizlet and go to: https://quizlet.com/create-set
 
 You should see an Import CSV button next to Quizlet's normal Import button.
 
